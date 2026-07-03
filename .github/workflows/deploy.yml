@@ -35,6 +35,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Preserve custom domain
+        run: printf 'sophialane.xyz\n' > dist/CNAME
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
