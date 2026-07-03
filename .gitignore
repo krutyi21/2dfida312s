@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+assets-original/
+photos-source/
+source-images/
+private/
+*.psd
+*.fig
+*.ai
+*.sketch
+.DS_Store
+Thumbs.db
